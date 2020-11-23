@@ -1,0 +1,29 @@
+small + small {
+
+    display: none;
+}
+
+input:valid + small {
+
+    display: none;
+}
+
+input:valid + small + small {
+
+    display: inline;
+
+}
+
+input:valid {
+
+    border: 1px solid green;
+}
+
+input:invalid {
+    border: 1px solid red;
+}
+
+.form {
+
+    margin-top: 30px;
+}
